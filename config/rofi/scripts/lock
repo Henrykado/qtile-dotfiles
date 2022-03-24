@@ -1,0 +1,32 @@
+#!/bin/sh
+i3lock --nofork                 	\
+    --ignore-empty-password		\
+    \
+    --indicator				\
+    --bar-indicator			\
+    --bar-pos 10		\
+    --bar-base-width 10		\
+    --bar-direction 1	\
+    --bar-color ffffff00			\
+    --keyhl-color F28FAD			\
+    \
+    --clock				\
+    --time-str "%I:%M %p"		\
+    --time-font "Retro Gaming"	\
+    --time-size 110			\
+    --time-pos 300:750		\
+    --time-color D9E0EE		\
+    \
+    --date-str "%A, %d %B"		\
+    --date-color D9E0EE		\
+    --date-font "Retro Gaming"	\
+    --date-size 50			\
+    --date-pos 300:650	\
+    \
+    --wrong-font "Retro Gaming"	\
+    --wrong-size 120			\
+    --wrong-color f22e68			\
+    --wrong-text "Try Again..."		\
+    \
+    --image ~/Pictures/wallpapers/niko.png
+
